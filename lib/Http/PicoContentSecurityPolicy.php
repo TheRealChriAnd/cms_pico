@@ -57,6 +57,7 @@ class PicoContentSecurityPolicy extends EmptyContentSecurityPolicy
 	/** @var array Domains to which connections can be done */
 	protected $allowedConnectDomains = [
 		'\'self\'',
+		'blob:',
 	];
 
 	/** @var array Domains from which media elements can be loaded */
