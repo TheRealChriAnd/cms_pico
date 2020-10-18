@@ -37,6 +37,8 @@ class PicoContentSecurityPolicy extends EmptyContentSecurityPolicy
 	/** @var array Domains from which scripts can get loaded */
 	protected $allowedScriptDomains = [
 		'\'self\'',
+		'https://unpkg.com/@google/model-viewer/dist/',
+		'https://unpkg.com/focus-visible/dist/',
 	];
 
 	/** @var bool Whether inline CSS is allowed */
