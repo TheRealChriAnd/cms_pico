@@ -45,6 +45,7 @@ class PicoContentSecurityPolicy extends EmptyContentSecurityPolicy
 	/** @var array Domains from which CSS can get loaded */
 	protected $allowedStyleDomains = [
 		'\'self\'',
+		'https://fonts.googleapis.com/'
 	];
 
 	/** @var array Domains from which images can get loaded */
